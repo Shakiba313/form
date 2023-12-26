@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Ussignment</title>
+</head>
+<body>
+    <main>  
+    <h1 id="title">App Survey Form</h1>
+        <p id="description">Thank you for your feedbak!</p>
+    <div class="dive-main">
+        <form id="survey-form" action="thank-you.html" method="">
+           
+           <div class="name">
+            <label for="name">Name:</label>
+        </div>
+            <input required type="text " id="name" name="name" placeholder="YourName"><br>
+        
+           <div class="email">
+            <label for="Email">Email:</label>
+        </div>
+            <input required id="email" type="email" name="email" placeholder="YourEmail"><br>
+        
+        <div class="age">
+            <label for="age">Age</label>
+        </div>
+            <input required type="number" id="number" name="number" placeholder="YourAge"><br>
+       
+    
+    <div calss="dive-main">
+        <div class="option">
+        <label>Would you recommend App to a frind? </label>
+    </div>
+        <label for="definitly">Definitly</label>
+        <input type="radio" id="definitly" name="choice-option">
+
+        <label for="Maybe">Maybe</label>
+        <input type="radio" id="Maybe" name="choice-option">
+
+        <label for="not sure">Not Sure</label>
+        <input type="radio" id="not" name="choice-option">
+    </div>
+    <div class="dive-main">
+        <div class="levels">
+        <label >What is your level of education?</label>
+    </div>
+        <select id="dropdown">
+        <option value="level">Select One</option>
+        <option value="level">PHD</option>
+        <option value="level">Master</option>
+        <option value="level">Bachelor</option>
+
+    </select>
+    </div>
+    
+        <div class="selector">
+        <label>What would you like to see improved?</label>
+    </div>
+    <div class="dive-mainn">
+        <label for="assignments">Assignments</label>
+        <input type="checkbox" id="assignments" name="add-choice">
+
+        <label for="lectures">Lectures</label>
+        <input type="checkbox" id="lectures" name="add-choice">
+
+        <label for="labs">Labs</label>
+        <input type="checkbox" id="labs" name="add-choice">
+
+        <label for="community">Community</label>
+        <input type="checkbox" id="community" name="add-choice"> 
+    </div>
+    <div class="dive-main">
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+    </div>
+    <div class="submit">
+        <button type="Submet">Submit</button>
+    </div>
+</form>
+</main>
+</body>
+</html>
